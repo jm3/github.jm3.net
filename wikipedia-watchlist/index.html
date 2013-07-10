@@ -1,615 +1,643 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8">
   <title>en.wikipedia.org.js</title>
-  <link rel="stylesheet" href="../stylesheets/docco.css">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
 </head>
 <body>
-<div id='container'>
-  <div id="background"></div>
-  <table cellspacing=0 cellpadding=0>
-  <thead>
-    <tr>
-      <th class=docs><h1>en.wikipedia.org.js</h1></th>
-      <th class=code></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr id='section-1'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-1">&#182;</a>
-        </div>
-        <p>by: jm3, <a href="http://www.jm3.net">www.jm3.net</a>, @<a href="http://twitter.com/jm3">jm3</a>.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-2'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-2">&#182;</a>
-        </div>
-        <p><a href="http://cl.ly/3H3K08311Q250d0e1M0M">View a screenshot</a> to see what this code does.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-3'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-3">&#182;</a>
-        </div>
-        <p><a href="https://github.com/jm3/thunderous-configs/blob/master/.js/en.wikipedia.org.js">View the code</a></p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-4'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-4">&#182;</a>
-        </div>
-        <p><a href="http://jm3.github.com/thunderous-configs/en.wikipedia.org.html">View the docs</a></p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-Setup'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-Setup">&#182;</a>
-        </div>
-        <h1>Setup</h1>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-6'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-6">&#182;</a>
-        </div>
-        <p>Let&rsquo;s apply these customizations only to the Watchlist page.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="k">if</span><span class="p">(</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span> <span class="s2">&quot;Special:Watchlist&quot;</span> <span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="p">)</span>
-  <span class="k">return</span><span class="p">;</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-Refine_Global_Navigation'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-Refine_Global_Navigation">&#182;</a>
-        </div>
-        <h1>Refine Global Navigation</h1>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-8'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-8">&#182;</a>
-        </div>
-        <p>First we reclaim some top nav space, in order to make more room for
+  <div id="container">
+    <div id="background"></div>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>en.wikipedia.org.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              <p>by: jm3, <a href="http://www.jm3.net">www.jm3.net</a>, @<a href="http://twitter.com/jm3">jm3</a>.</p>
+<p><a href="http://public.jm3.net/github-embeds/wikipedia-watchlist-prettyprinter-2012-01-08.png">View a screenshot</a> to see what this code does.</p>
+<p><a href="https://github.com/jm3/dotfiles/blob/master/.js/en.wikipedia.org.js">Fork the code</a></p>
+<p><a href="http://jm3.github.io/wikipedia-watchlist/">View the docs</a></p>
+<h1>Setup</h1>
+<p>Let&#39;s apply these customizations only to the Watchlist page.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="keyword">if</span>( location.href.indexOf( <span class="string">"Special:Watchlist"</span> ) &lt; <span class="number">0</span> )
+  <span class="keyword">return</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap for-h1">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <h1>Refine Global Navigation</h1>
+<p>First we reclaim some top nav space, in order to make more room for
 the content, by hiding irrelevant stuff.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#left-navigation, #mw-head-base, #mw-page-base, geonotice, #pt-mycontris&quot;</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-9'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-9">&#182;</a>
-        </div>
-        <p>Now let&rsquo;s make the page header less jarring,</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;h1#firstHeading&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">({</span>
-  <span class="s2">&quot;border-bottom&quot;</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
-  <span class="s2">&quot;font-size&quot;</span><span class="o">:</span> <span class="s2">&quot;1.2em&quot;</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-10'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-10">&#182;</a>
-        </div>
-        <p>…and replace the content-free title (&ldquo;watchlist&rdquo;) with
-a more informative one (&ldquo;You are watching NN pages.&rdquo;)</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="p">}).</span><span class="nx">text</span><span class="p">(</span>
-  <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;ul#watchlist-message&quot;</span><span class="p">).</span><span class="nx">next</span><span class="p">().</span><span class="nx">text</span><span class="p">()</span>
-  <span class="p">.</span><span class="nx">replace</span><span class="p">(</span> <span class="sr">/You have/</span><span class="p">,</span> <span class="s2">&quot;You are watching&quot;</span> <span class="p">)</span>
-  <span class="p">.</span><span class="nx">replace</span><span class="p">(</span> <span class="sr">/ on your watch.*\./</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span> <span class="p">)</span>
-<span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-11'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-11">&#182;</a>
-        </div>
-        <p>We&rsquo;ll de-emphasize the top &ldquo;personal&rdquo; nav links that Wikipedians
-advanced enough to use the watchlist probably don&rsquo;t really need.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#contentSub, #contentSub *, #p-personal a&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">({</span>
-  <span class="s2">&quot;color&quot;</span>          <span class="o">:</span> <span class="s2">&quot;gray&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;font-size&quot;</span>      <span class="o">:</span> <span class="s2">&quot;11px&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;text-transform&quot;</span> <span class="o">:</span> <span class="s2">&quot;lowercase&quot;</span>
-<span class="p">});</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;li#pt-userpage&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;background&quot;</span><span class="p">,</span> <span class="s2">&quot;transparent&quot;</span><span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-12'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-12">&#182;</a>
-        </div>
-        <p>Let&rsquo;s align nav and search box along the grid, for OCD sake.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#searchform&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;margin-right&quot;</span><span class="p">,</span> <span class="s2">&quot;1.4em&quot;</span> <span class="p">);</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#contentSub&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;margin&quot;</span><span class="p">,</span> <span class="mi">0</span> <span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-13'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-13">&#182;</a>
-        </div>
-        <p>The settings form atop the page gets in the way and distracts
-from the content of the page. We&rsquo;ll de-emphasize it by first removing
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"#left-navigation, #mw-head-base, #mw-page-base, geonotice, #pt-mycontris"</span>).hide();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>Now let&#39;s make the page header less jarring,</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"h1#firstHeading"</span>).css({
+  <span class="string">"border-bottom"</span>: <span class="number">0</span>,
+  <span class="string">"font-size"</span>: <span class="string">"1.2em"</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>…and replace the content-free title (&quot;watchlist&quot;) with
+a more informative one (&quot;You are watching NN pages.&quot;)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>}).text(
+  $(<span class="string">"ul#watchlist-message"</span>).next().text()
+  .replace( <span class="regexp">/You have/</span>, <span class="string">"You are watching"</span> )
+  .replace( <span class="regexp">/ on your watch.*\./</span>, <span class="string">"."</span> )
+);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p>We&#39;ll de-emphasize the top &quot;personal&quot; nav links that Wikipedians
+advanced enough to use the watchlist probably don&#39;t really need.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"#contentSub, #contentSub *, #p-personal a"</span>).css({
+  <span class="string">"color"</span>          : <span class="string">"gray"</span>,
+  <span class="string">"font-size"</span>      : <span class="string">"11px"</span>,
+  <span class="string">"text-transform"</span> : <span class="string">"lowercase"</span>
+});
+$(<span class="string">"li#pt-userpage"</span>).css( <span class="string">"background"</span>, <span class="string">"transparent"</span>);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>Let&#39;s align nav and search box along the grid, for OCD sake.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"#searchform"</span>).css( <span class="string">"margin-right"</span>, <span class="string">"1.4em"</span> );
+$(<span class="string">"#contentSub"</span>).css( <span class="string">"margin"</span>, <span class="number">0</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>The settings form atop the page gets in the way and distracts
+from the content of the page. We&#39;ll de-emphasize it by first removing
 the extra chart-junk that provides no information.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;div#content&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;line-height&quot;</span><span class="p">,</span> <span class="s2">&quot;0&quot;</span> <span class="p">);</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#mw-watchlist-options legend, #mw-watchlist-options hr,&quot;</span>
-<span class="o">+</span> <span class="s2">&quot;#mw-watchlist-form-namespaceselector&quot;</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#mw-watchlist-options&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">({</span>
-  <span class="s2">&quot;border&quot;</span>  <span class="o">:</span> <span class="s2">&quot;0&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;padding&quot;</span> <span class="o">:</span> <span class="s2">&quot;0&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;margin&quot;</span>  <span class="o">:</span> <span class="s2">&quot;2.0em 0 0 2.0em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;color&quot;</span>   <span class="o">:</span> <span class="s2">&quot;gray&quot;</span>
-<span class="p">}).</span><span class="nx">children</span><span class="p">().</span><span class="nx">css</span><span class="p">({</span>
-  <span class="s2">&quot;color&quot;</span>   <span class="o">:</span> <span class="s2">&quot;gray&quot;</span>
-<span class="p">});</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-14'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-14">&#182;</a>
-        </div>
-        <p>Then we&rsquo;ll move the whole form below the content, to the bottom of the page</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#mw-watchlist-options&quot;</span><span class="p">).</span><span class="nx">detach</span><span class="p">().</span><span class="nx">appendTo</span><span class="p">(</span> <span class="s2">&quot;#bodyContent&quot;</span> <span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-15'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-15">&#182;</a>
-        </div>
-        <p>Having now cleaned up the top nav, this remaining div clobbers
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"div#content"</span>).css( <span class="string">"line-height"</span>, <span class="string">"0"</span> );
+$(<span class="string">"#mw-watchlist-options legend, #mw-watchlist-options hr,"</span>
++ <span class="string">"#mw-watchlist-form-namespaceselector"</span>).hide();
+$(<span class="string">"#mw-watchlist-options"</span>).css({
+  <span class="string">"border"</span>  : <span class="string">"0"</span>,
+  <span class="string">"padding"</span> : <span class="string">"0"</span>,
+  <span class="string">"margin"</span>  : <span class="string">"2.0em 0 0 2.0em"</span>,
+  <span class="string">"color"</span>   : <span class="string">"gray"</span>
+}).children().css({
+  <span class="string">"color"</span>   : <span class="string">"gray"</span>
+});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>Then we&#39;ll move the whole form below the content, to the bottom of the page</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"#mw-watchlist-options"</span>).detach().appendTo( <span class="string">"#bodyContent"</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>Having now cleaned up the top nav, this remaining div clobbers
 the top nav after we cleaned it up, so we shorten it.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#mw-head&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;width&quot;</span><span class="p">,</span> <span class="s2">&quot;440px&quot;</span> <span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-Remove_chart-junk_from_content'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-Remove_chart-junk_from_content">&#182;</a>
-        </div>
-        <h1>Remove chart-junk from content</h1>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-17'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-17">&#182;</a>
-        </div>
-        <p>First we need to reach DEEP up into the DOM to kill all the (annoyingly
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"#mw-head"</span>).css( <span class="string">"width"</span>, <span class="string">"440px"</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap for-h1">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              <h1>Remove chart-junk from content</h1>
+<p>First we need to reach DEEP up into the DOM to kill all the (annoyingly
 un-classed and therefore un-style-able) text nodes in the
 main changelog content block. Grab your ankles!</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="kd">var</span> <span class="nx">removed</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-<span class="nx">$</span><span class="p">(</span> <span class="s2">&quot;a:contains(&#39;hist&#39;)&quot;</span> <span class="p">)</span>
-<span class="p">.</span><span class="nx">parent</span><span class="p">().</span><span class="nx">parent</span><span class="p">().</span><span class="nx">find</span><span class="p">(</span><span class="s1">&#39;*&#39;</span><span class="p">)</span>
-<span class="p">.</span><span class="nx">contents</span><span class="p">().</span><span class="nx">filter</span><span class="p">(</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-18'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-18">&#182;</a>
-        </div>
-        <p>Once we arrive here, we&rsquo;ve skipped all normally traverseable
-DOM nodes, and are only working with pure text nodes &ndash; things
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="keyword">var</span> removed = <span class="number">0</span>;
+$( <span class="string">"a:contains('hist')"</span> )
+.parent().parent().find(<span class="string">'*'</span>)
+.contents().filter(</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-11">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-11">&#182;</a>
+              </div>
+              <p>Once we arrive here, we&#39;ve skipped all normally traverseable
+DOM nodes, and are only working with pure text nodes - things
 with NO classes or IDs. Here there be dragons :(</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre>  <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">nodeType</span> <span class="o">==</span> <span class="mi">3</span><span class="p">;</span> <span class="p">}</span>
-<span class="p">).</span><span class="nx">each</span><span class="p">(</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
 
-  <span class="kd">var</span> <span class="nx">t</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">text</span><span class="p">();</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-19'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-19">&#182;</a>
-        </div>
-        <p>Don&rsquo;t obscure my watchlist information with the IP addresses
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  <span class="function"><span class="keyword">function</span> <span class="params">()</span> {</span> <span class="keyword">return</span> <span class="keyword">this</span>.nodeType == <span class="number">3</span>; }
+).each( <span class="keyword">function</span>() {
+
+  <span class="keyword">var</span> t = $(<span class="keyword">this</span>).text();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-12">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-12">&#182;</a>
+              </div>
+              <p>Don&#39;t obscure my watchlist information with the IP addresses
 of anonymous posters. Also, remove horrible-looking fake
-&amp;hellip; nodes &ldquo; .  .  . &rdquo; (dot space dot space what-the-fuck-guys?).</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre>  <span class="k">if</span><span class="p">(</span> <span class="nx">t</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span> <span class="sr">/^([;: \.\(\)]|[0-9])+$/</span> <span class="p">))</span> <span class="p">{</span>
-    <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">remove</span><span class="p">();</span>
-    <span class="o">++</span> <span class="nx">removed</span><span class="p">;</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-20'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-20">&#182;</a>
-        </div>
-        <p>Timestamps everywhere obscure the changes to the pages I&rsquo;m trying to watch; remove them.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre>  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">t</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span> <span class="sr">/[0-9]:[0-9]/</span> <span class="p">))</span> <span class="p">{</span>
-    <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">remove</span><span class="p">();</span>
-    <span class="o">++</span> <span class="nx">removed</span><span class="p">;</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-21'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-21">&#182;</a>
-        </div>
-        <p>Remove chartjunk that makes the lines harder to read…</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre>  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">t</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span> <span class="sr">/\s\|\s/</span> <span class="p">))</span> <span class="p">{</span>
-    <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">remove</span><span class="p">();</span>
-    <span class="o">++</span> <span class="nx">removed</span><span class="p">;</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-22'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-22">&#182;</a>
-        </div>
-        <p>…including weird trailing colons in Section links.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre>  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="nx">t</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span> <span class="sr">/: $/</span> <span class="p">))</span> <span class="p">{</span>
-    <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">replaceWith</span><span class="p">(</span> <span class="nx">t</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span> <span class="sr">/: $/</span><span class="p">,</span> <span class="s2">&quot;&quot;</span> <span class="p">));</span>
-  <span class="p">}</span>
+&amp;hellip; nodes &quot; .  .  . &quot; (dot space dot space what-the-fuck-guys?).</p>
 
-<span class="p">});</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-23'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-23">&#182;</a>
-        </div>
-        <p>When debugging the above positional node code,
-it can be helpful to trace how many nodes we&rsquo;ve scrubbed.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="cm">/* console.log( &quot;removed &quot; + removed + &quot; extraneous whitespace nodes&quot; ); */</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-Restyle_Metadata'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-Restyle_Metadata">&#182;</a>
-        </div>
-        <h1>Restyle Metadata</h1>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-25'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-25">&#182;</a>
-        </div>
-        <p>Now onto the fun stuff! After removing extraneous whitespace,
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  <span class="keyword">if</span>( t.match( <span class="regexp">/^([;: \.\(\)]|[0-9])+$/</span> )) {
+    $(<span class="keyword">this</span>).remove();
+    ++ removed;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-13">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-13">&#182;</a>
+              </div>
+              <p>Timestamps everywhere obscure the changes to the pages I&#39;m trying to watch; remove them.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  } <span class="keyword">else</span> <span class="keyword">if</span>( t.match( <span class="regexp">/[0-9]:[0-9]/</span> )) {
+    $(<span class="keyword">this</span>).remove();
+    ++ removed;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-14">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-14">&#182;</a>
+              </div>
+              <p>Remove chartjunk that makes the lines harder to read…</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  } <span class="keyword">else</span> <span class="keyword">if</span>( t.match( <span class="regexp">/\s\|\s/</span> )) {
+    $(<span class="keyword">this</span>).remove();
+    ++ removed;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-15">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-15">&#182;</a>
+              </div>
+              <p>…including weird trailing colons in Section links.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  } <span class="keyword">else</span> <span class="keyword">if</span>( t.match( <span class="regexp">/: $/</span> )) {
+    $(<span class="keyword">this</span>).replaceWith( t.replace( <span class="regexp">/: $/</span>, <span class="string">""</span> ));
+  } 
+
+});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-16">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-16">&#182;</a>
+              </div>
+              <p>When debugging the above positional node code,
+it can be helpful to trace how many nodes we&#39;ve scrubbed.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="comment">/* console.log( "removed " + removed + " extraneous whitespace nodes" ); */</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-17">
+            <div class="annotation">
+              
+              <div class="pilwrap for-h1">
+                <a class="pilcrow" href="#section-17">&#182;</a>
+              </div>
+              <h1>Restyle Metadata</h1>
+<p>Now onto the fun stuff! After removing extraneous whitespace,
 pad out the watchlist to give the text room to breathe.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;ul.special a&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;padding&quot;</span><span class="p">,</span> <span class="s2">&quot;0 0.2em&quot;</span> <span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-26'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-26">&#182;</a>
-        </div>
-        <p>Prettify the notations about number of lines added/deleted in each change.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;.mw-plusminus-pos,.mw-plusminus-neg&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="p">{</span>
-  <span class="s2">&quot;padding&quot;</span>               <span class="o">:</span> <span class="s2">&quot;0.2em 0.5em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;font-weight&quot;</span>           <span class="o">:</span> <span class="s2">&quot;bold&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;font-size&quot;</span>             <span class="o">:</span> <span class="s2">&quot;90%&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;-webkit-border-radius&quot;</span> <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;-moz-border-radius&quot;</span>    <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;-border-radius&quot;</span>        <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span>
-<span class="p">});</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;.mw-plusminus-pos&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;background-color&quot;</span><span class="p">,</span> <span class="s2">&quot;#ddffdd&quot;</span> <span class="p">);</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;.mw-plusminus-neg&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;background-color&quot;</span><span class="p">,</span> <span class="s2">&quot;#ffdddd&quot;</span> <span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-27'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-27">&#182;</a>
-        </div>
-        <p>Wikipedia prefers to give EVERY POSSIBLE OPTION at every turn.
-Instead, we&rsquo;ll streamline things to allow faster and more accurage
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"ul.special a"</span>).css( <span class="string">"padding"</span>, <span class="string">"0 0.2em"</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-18">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-18">&#182;</a>
+              </div>
+              <p>Prettify the notations about number of lines added/deleted in each change.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">".mw-plusminus-pos,.mw-plusminus-neg"</span>).css( {
+  <span class="string">"padding"</span>               : <span class="string">"0.2em 0.5em"</span>,
+  <span class="string">"font-weight"</span>           : <span class="string">"bold"</span>,
+  <span class="string">"font-size"</span>             : <span class="string">"90%"</span>,
+  <span class="string">"-webkit-border-radius"</span> : <span class="string">"0.3em"</span>,
+  <span class="string">"-moz-border-radius"</span>    : <span class="string">"0.3em"</span>,
+  <span class="string">"-border-radius"</span>        : <span class="string">"0.3em"</span>
+});
+$(<span class="string">".mw-plusminus-pos"</span>).css( <span class="string">"background-color"</span>, <span class="string">"#ddffdd"</span> );
+$(<span class="string">".mw-plusminus-neg"</span>).css( <span class="string">"background-color"</span>, <span class="string">"#ffdddd"</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-19">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-19">&#182;</a>
+              </div>
+              <p>Wikipedia prefers to give EVERY POSSIBLE OPTION at every turn.
+Instead, we&#39;ll streamline things to allow faster and more accurage
 scanning of the page. Hide auto-edits from bots, page history links,
 and links to talk pages.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;abbr.botedit, a:contains(&#39;hist&#39;)&quot;</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;abbr.botedit&quot;</span><span class="p">).</span><span class="nx">parent</span><span class="p">().</span><span class="nx">hide</span><span class="p">();</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;a:contains(&#39;talk&#39;)&quot;</span><span class="p">).</span><span class="nx">parent</span><span class="p">().</span><span class="nx">hide</span><span class="p">();</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-28'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-28">&#182;</a>
-        </div>
-        <p>Hiding minor edits not only cuts down the noise, but it also
-makes the number of text node &ldquo;columns&rdquo; more consistent more
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"abbr.botedit, a:contains('hist')"</span>).hide();
+$(<span class="string">"abbr.botedit"</span>).parent().hide();
+$(<span class="string">"a:contains('talk')"</span>).parent().hide();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-20">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-20">&#182;</a>
+              </div>
+              <p>Hiding minor edits not only cuts down the noise, but it also
+makes the number of text node &quot;columns&quot; more consistent more
 consistent across watchlist rows, so that we can programmatically
-select article names to style them, without caring whether it&rsquo;s a
+select article names to style them, without caring whether it&#39;s a
 minor edit or a bot edit.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;abbr.minoredit&quot;</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-29'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-29">&#182;</a>
-        </div>
-        <p>Replace chart-junk with a clean &ldquo;delta&rdquo; icon — i don&rsquo;t need to
-see the word &ldquo;diff&rdquo; 80 times in a row.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;a:contains(&#39;diff&#39;)&quot;</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span> <span class="s2">&quot;Δ&quot;</span> <span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-30'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-30">&#182;</a>
-        </div>
-        <p>De-emphasize WHO made the change in favor of what they changed.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;.mw-userlink&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="s2">&quot;color&quot;</span><span class="p">,</span> <span class="s2">&quot;gray&quot;</span><span class="p">)</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-31'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-31">&#182;</a>
-        </div>
-        <p>Category links add little value, so don&rsquo;t let them crowd things out.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;a:contains(&#39;Category:&#39;)&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">({</span>
-  <span class="s2">&quot;color&quot;</span>         <span class="o">:</span> <span class="s2">&quot;black&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;padding&quot;</span>       <span class="o">:</span> <span class="s2">&quot;0&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;border-bottom&quot;</span> <span class="o">:</span> <span class="s2">&quot;1px dotted gray&quot;</span>
-<span class="p">});</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;.mw-redirect&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">({</span>
-  <span class="s2">&quot;color&quot;</span>         <span class="o">:</span> <span class="s2">&quot;black&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;padding&quot;</span>       <span class="o">:</span> <span class="s2">&quot;0&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;border-bottom&quot;</span> <span class="o">:</span> <span class="s2">&quot;1px dotted gray&quot;</span>
-<span class="p">});</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-32'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-32">&#182;</a>
-        </div>
-        <p>De-emphasize discussion ABOUT articles (and minor edits) in favor
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"abbr.minoredit"</span>).hide();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-21">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-21">&#182;</a>
+              </div>
+              <p>Replace chart-junk with a clean &quot;delta&quot; icon — i don&#39;t need to
+see the word &quot;diff&quot; 80 times in a row.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"a:contains('diff')"</span>).text( <span class="string">"Δ"</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-22">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-22">&#182;</a>
+              </div>
+              <p>De-emphasize WHO made the change in favor of what they changed.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">".mw-userlink"</span>).css(<span class="string">"color"</span>, <span class="string">"gray"</span>)</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-23">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-23">&#182;</a>
+              </div>
+              <p>Category links add little value, so don&#39;t let them crowd things out.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"a:contains('Category:')"</span>).css({
+  <span class="string">"color"</span>         : <span class="string">"black"</span>,
+  <span class="string">"padding"</span>       : <span class="string">"0"</span>,
+  <span class="string">"border-bottom"</span> : <span class="string">"1px dotted gray"</span>
+});
+$(<span class="string">".mw-redirect"</span>).css({
+  <span class="string">"color"</span>         : <span class="string">"black"</span>,
+  <span class="string">"padding"</span>       : <span class="string">"0"</span>,
+  <span class="string">"border-bottom"</span> : <span class="string">"1px dotted gray"</span>
+});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-24">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-24">&#182;</a>
+              </div>
+              <p>De-emphasize discussion ABOUT articles (and minor edits) in favor
 of the articles themselves.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;a:contains(&#39;Talk:&#39;)&quot;</span><span class="p">).</span><span class="nx">parent</span><span class="p">().</span><span class="nx">children</span><span class="p">().</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;color&quot;</span><span class="p">,</span> <span class="s2">&quot;gray&quot;</span> <span class="p">);</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;abbr.minoredit&quot;</span><span class="p">).</span><span class="nx">parent</span><span class="p">().</span><span class="nx">children</span><span class="p">().</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;color&quot;</span><span class="p">,</span> <span class="s2">&quot;gray&quot;</span> <span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-Improve_section_headers'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-Improve_section_headers">&#182;</a>
-        </div>
-        <h1>Improve section headers</h1>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-34'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-34">&#182;</a>
-        </div>
-        <p>Convert absolute dates in euro format to more readable relative dates (&ldquo;2 days ago&rdquo;).</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;h4&quot;</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">text</span><span class="p">()</span> <span class="p">);</span>
-  <span class="kd">var</span> <span class="nx">day_in_ms</span> <span class="o">=</span> <span class="mi">1000</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">24</span><span class="p">;</span>
-  <span class="nx">d</span> <span class="o">=</span> <span class="s2">&quot;Changes made to watched Wikipedia pages &quot;</span>
-      <span class="o">+</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">abs</span><span class="p">(</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">ceil</span><span class="p">((</span><span class="nx">d</span> <span class="o">-</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">())</span><span class="o">/</span><span class="p">(</span><span class="nx">day_in_ms</span><span class="p">)))</span>
-      <span class="o">+</span> <span class="s2">&quot; days ago:&quot;</span><span class="p">;</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-35'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-35">&#182;</a>
-        </div>
-        <p>Inflect new semantic headers for proper agreement. I hate reading things like &ldquo;1 days ago&rdquo;.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre>  <span class="nx">d</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span> <span class="sr">/0 days ago/</span><span class="p">,</span> <span class="s2">&quot;today&quot;</span> <span class="p">)</span>
-       <span class="p">.</span><span class="nx">replace</span><span class="p">(</span> <span class="sr">/1 days ago/</span><span class="p">,</span> <span class="s2">&quot;yesterday&quot;</span> <span class="p">);</span>
-  <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span> <span class="nx">d</span> <span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-36'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-36">&#182;</a>
-        </div>
-        <p>Style the new relative date headers to be clear but not strident.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre>  <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">({</span>
-    <span class="s2">&quot;width&quot;</span>                 <span class="o">:</span> <span class="s2">&quot;746px&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;font-weight&quot;</span>           <span class="o">:</span> <span class="s2">&quot;normal&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;font-size&quot;</span>             <span class="o">:</span> <span class="s2">&quot;1.0em&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;padding&quot;</span>               <span class="o">:</span> <span class="s2">&quot;0&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;margin&quot;</span>                <span class="o">:</span> <span class="s2">&quot;1.5em 0 0.8em 0.0em&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;-webkit-border-radius&quot;</span> <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;-moz-border-radius&quot;</span>    <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;-border-radius&quot;</span>        <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span>
-  <span class="p">});</span>
-<span class="p">});</span>
-<span class="nx">$</span><span class="p">(</span><span class="s2">&quot;h4:first&quot;</span><span class="p">).</span><span class="nx">css</span><span class="p">({</span>
-  <span class="s2">&quot;margin-top&quot;</span><span class="o">:</span> <span class="s2">&quot;1.0em&quot;</span>
-<span class="p">});</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-Style_content_rows'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-Style_content_rows">&#182;</a>
-        </div>
-        <h1>Style content rows</h1>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre></pre></div>
-      </td>
-    </tr>
-    <tr id='section-38'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-38">&#182;</a>
-        </div>
-        <p>Cache a handle to these nodes cause we&rsquo;ll need them again (h/t @<a href="https://twitter.com/#!/Shahor/status/156617950395236352">Shahor</a>!)</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="kd">var</span> <span class="nx">li</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;ul.special li&quot;</span><span class="p">);</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-39'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-39">&#182;</a>
-        </div>
-        <p>Let&rsquo;s give some additional weight to the article names, the most
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"a:contains('Talk:')"</span>).parent().children().css( <span class="string">"color"</span>, <span class="string">"gray"</span> );
+$(<span class="string">"abbr.minoredit"</span>).parent().children().css( <span class="string">"color"</span>, <span class="string">"gray"</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-25">
+            <div class="annotation">
+              
+              <div class="pilwrap for-h1">
+                <a class="pilcrow" href="#section-25">&#182;</a>
+              </div>
+              <h1>Improve section headers</h1>
+<p>Convert absolute dates in euro format to more readable relative dates (&quot;2 days ago&quot;).</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$(<span class="string">"h4"</span>).each( <span class="keyword">function</span>() {
+  <span class="keyword">var</span> d = Date.parse( $(<span class="keyword">this</span>).text() );
+  <span class="keyword">var</span> day_in_ms = <span class="number">1000</span> * <span class="number">60</span> * <span class="number">60</span> * <span class="number">24</span>;
+  d = <span class="string">"Changes made to watched Wikipedia pages "</span>
+      + Math.abs( Math.ceil((d - Date.now())/(day_in_ms)))
+      + <span class="string">" days ago:"</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-26">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-26">&#182;</a>
+              </div>
+              <p>Inflect new semantic headers for proper agreement. I hate reading things like &quot;1 days ago&quot;.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  d = d.replace( <span class="regexp">/0 days ago/</span>, <span class="string">"today"</span> )
+       .replace( <span class="regexp">/1 days ago/</span>, <span class="string">"yesterday"</span> );
+  $(<span class="keyword">this</span>).text( d );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-27">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-27">&#182;</a>
+              </div>
+              <p>Style the new relative date headers to be clear but not strident.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  $(<span class="keyword">this</span>).css({
+    <span class="string">"width"</span>                 : <span class="string">"746px"</span>,
+    <span class="string">"font-weight"</span>           : <span class="string">"normal"</span>,
+    <span class="string">"font-size"</span>             : <span class="string">"1.0em"</span>,
+    <span class="string">"padding"</span>               : <span class="string">"0"</span>,
+    <span class="string">"margin"</span>                : <span class="string">"1.5em 0 0.8em 0.0em"</span>,
+    <span class="string">"-webkit-border-radius"</span> : <span class="string">"0.3em"</span>,
+    <span class="string">"-moz-border-radius"</span>    : <span class="string">"0.3em"</span>,
+    <span class="string">"-border-radius"</span>        : <span class="string">"0.3em"</span>
+  });
+});
+$(<span class="string">"h4:first"</span>).css({
+  <span class="string">"margin-top"</span>: <span class="string">"1.0em"</span>
+});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-28">
+            <div class="annotation">
+              
+              <div class="pilwrap for-h1">
+                <a class="pilcrow" href="#section-28">&#182;</a>
+              </div>
+              <h1>Style content rows</h1>
+<p>Cache a handle to these nodes cause we&#39;ll need them again (h/t @<a href="https://twitter.com/#!/Shahor/status/156617950395236352">Shahor</a>!)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="keyword">var</span> li = $(<span class="string">"ul.special li"</span>);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-29">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-29">&#182;</a>
+              </div>
+              <p>Let&#39;s give some additional weight to the article names, the most
 important piece of information in the watchlist.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">li</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">links</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">children</span><span class="p">();</span>
-  <span class="nx">$</span><span class="p">(</span><span class="nx">links</span><span class="p">[</span><span class="mi">2</span><span class="p">]).</span><span class="nx">css</span><span class="p">({</span>
-    <span class="s2">&quot;font-weight&quot;</span> <span class="o">:</span> <span class="s2">&quot;bold&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;font-size&quot;</span>   <span class="o">:</span> <span class="s2">&quot;1.1em&quot;</span>
-  <span class="p">});</span>
-<span class="p">});</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-40'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-40">&#182;</a>
-        </div>
-        <p>Finally, we style the major watchlist blocks, which are LI
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>li.each( <span class="keyword">function</span>() {
+  <span class="keyword">var</span> links = $(<span class="keyword">this</span>).children();
+  $(links[<span class="number">2</span>]).css({
+    <span class="string">"font-weight"</span> : <span class="string">"bold"</span>,
+    <span class="string">"font-size"</span>   : <span class="string">"1.1em"</span>
+  });
+});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-30">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-30">&#182;</a>
+              </div>
+              <p>Finally, we style the major watchlist blocks, which are LI
 elements. Apply a super-subtle gradient to distinguish them without
 being overly busy.</p>
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">li</span><span class="p">.</span><span class="nx">css</span><span class="p">({</span>
-  <span class="s2">&quot;list-style&quot;</span>            <span class="o">:</span> <span class="s2">&quot;none&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;line-height&quot;</span>           <span class="o">:</span> <span class="s2">&quot;1.7em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;width&quot;</span>                 <span class="o">:</span> <span class="s2">&quot;760px&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;padding&quot;</span>               <span class="o">:</span> <span class="s2">&quot;0.4em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;font-size&quot;</span>             <span class="o">:</span> <span class="s2">&quot;0.9em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;border&quot;</span>                <span class="o">:</span> <span class="s2">&quot;1px solid #d3d3d3&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;margin-bottom&quot;</span>         <span class="o">:</span> <span class="s2">&quot;0.6em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;-webkit-border-radius&quot;</span> <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;-moz-border-radius&quot;</span>    <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;-border-radius&quot;</span>        <span class="o">:</span> <span class="s2">&quot;0.3em&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;-webkit-box-shadow&quot;</span>    <span class="o">:</span> <span class="s2">&quot;1px 1px 1px 0px #ddd&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;-moz-box-shadow&quot;</span>       <span class="o">:</span> <span class="s2">&quot;1px 1px 1px 0px #ddd&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;box-shadow&quot;</span>            <span class="o">:</span> <span class="s2">&quot;1px 1px 1px 0px #ddd&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;background&quot;</span>            <span class="o">:</span> <span class="s2">&quot;#fbfbfb&quot;</span><span class="p">,</span>                                            <span class="cm">/* Old browsers */</span>
-  <span class="s2">&quot;background&quot;</span>            <span class="o">:</span> <span class="s2">&quot;-moz-linear-gradient(top, #ffffff 0%, #f3f3f3 99%)&quot;</span><span class="p">,</span> <span class="cm">/* FF3.6+       */</span>
-  <span class="s2">&quot;background&quot;</span>            <span class="o">:</span> <span class="s2">&quot;-o-linear-gradient(  top, #ffffff 0%, #f3f3f3 99%)&quot;</span><span class="p">,</span> <span class="cm">/* Opera 11.10+ */</span>
-  <span class="s2">&quot;background&quot;</span>            <span class="o">:</span> <span class="s2">&quot;-ms-linear-gradient( top, #ffffff 0%, #f3f3f3 99%)&quot;</span><span class="p">,</span> <span class="cm">/* IE10+        */</span>
-  <span class="s2">&quot;background&quot;</span>            <span class="o">:</span> <span class="s2">&quot;linear-gradient(     top, #ffffff 0%, #f3f3f3 99%)&quot;</span><span class="p">,</span> <span class="cm">/* W3C          */</span>
 
-  <span class="cm">/* N.b. the two webkit gradient properties must come after the other browsers&#39; for Chrome to display the gradient #wtfchrome */</span>
-  <span class="s2">&quot;background&quot;</span>            <span class="o">:</span> <span class="s2">&quot;-webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 99%)&quot;</span><span class="p">,</span> <span class="cm">/* Chrome10+,Safari5.1+ */</span>
-  <span class="s2">&quot;background&quot;</span>            <span class="o">:</span> <span class="s2">&quot;-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#f3f3f3))&quot;</span> <span class="cm">/* Chrome,Safari4+ */</span>
-<span class="p">});</span></pre></div>
-      </td>
-    </tr>
-    <tr id='section-41'>
-      <td class=docs>
-        <div class="pilwrap">
-          <a class="pilcrow" href="#section-41">&#182;</a>
-        </div>
-        <p>Chrome users get sexy subtle gradient hovers. Fuck other browsers.</p>
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>li.css({
+  <span class="string">"list-style"</span>            : <span class="string">"none"</span>,
+  <span class="string">"line-height"</span>           : <span class="string">"1.7em"</span>,
+  <span class="string">"width"</span>                 : <span class="string">"760px"</span>,
+  <span class="string">"padding"</span>               : <span class="string">"0.4em"</span>,
+  <span class="string">"font-size"</span>             : <span class="string">"0.9em"</span>,
+  <span class="string">"border"</span>                : <span class="string">"1px solid #d3d3d3"</span>,
+  <span class="string">"margin-bottom"</span>         : <span class="string">"0.6em"</span>,
+  <span class="string">"-webkit-border-radius"</span> : <span class="string">"0.3em"</span>,
+  <span class="string">"-moz-border-radius"</span>    : <span class="string">"0.3em"</span>,
+  <span class="string">"-border-radius"</span>        : <span class="string">"0.3em"</span>,
+  <span class="string">"-webkit-box-shadow"</span>    : <span class="string">"1px 1px 1px 0px #ddd"</span>,
+  <span class="string">"-moz-box-shadow"</span>       : <span class="string">"1px 1px 1px 0px #ddd"</span>,
+  <span class="string">"box-shadow"</span>            : <span class="string">"1px 1px 1px 0px #ddd"</span>,
+  <span class="string">"background"</span>            : <span class="string">"#fbfbfb"</span>,                                            <span class="comment">/* Old browsers */</span>
+  <span class="string">"background"</span>            : <span class="string">"-moz-linear-gradient(top, #ffffff 0%, #f3f3f3 99%)"</span>, <span class="comment">/* FF3.6+       */</span>
+  <span class="string">"background"</span>            : <span class="string">"-o-linear-gradient(  top, #ffffff 0%, #f3f3f3 99%)"</span>, <span class="comment">/* Opera 11.10+ */</span>
+  <span class="string">"background"</span>            : <span class="string">"-ms-linear-gradient( top, #ffffff 0%, #f3f3f3 99%)"</span>, <span class="comment">/* IE10+        */</span>
+  <span class="string">"background"</span>            : <span class="string">"linear-gradient(     top, #ffffff 0%, #f3f3f3 99%)"</span>, <span class="comment">/* W3C          */</span>
 
-      </td>
-      <td class=code>
-        <div class='highlight'><pre><span class="nx">li</span><span class="p">.</span><span class="nx">hover</span><span class="p">(</span>
-  <span class="cm">/* hover ON */</span>
-  <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;background&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#e3e7e8))&quot;</span><span class="p">);</span> <span class="p">},</span>
-  <span class="cm">/* hover OFF */</span>
-  <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span> <span class="s2">&quot;background&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#f3f3f3))&quot;</span><span class="p">);</span> <span class="p">}</span>
-<span class="p">);</span></pre></div>
-      </td>
-    </tr>
-  </table>
-</div>
+  <span class="comment">/* N.b. the two webkit gradient properties must come after the other browsers' for Chrome to display the gradient #wtfchrome */</span>
+  <span class="string">"background"</span>            : <span class="string">"-webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 99%)"</span>, <span class="comment">/* Chrome10+,Safari5.1+ */</span>
+  <span class="string">"background"</span>            : <span class="string">"-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#f3f3f3))"</span> <span class="comment">/* Chrome,Safari4+ */</span>
+});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-31">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-31">&#182;</a>
+              </div>
+              <p>Chrome users get sexy subtle gradient hovers. Fuck other browsers.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>li.hover(
+  <span class="comment">/* hover ON */</span>
+  <span class="keyword">function</span>() { $(<span class="keyword">this</span>).css( <span class="string">"background"</span>, 
+    <span class="string">"-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#e3e7e8))"</span>); },
+  <span class="comment">/* hover OFF */</span>
+  <span class="keyword">function</span>() { $(<span class="keyword">this</span>).css( <span class="string">"background"</span>, 
+    <span class="string">"-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#f3f3f3))"</span>); }
+);</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
 </body>
+</html>
